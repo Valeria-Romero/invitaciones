@@ -1,0 +1,172 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+
+.material-symbols-outlined {
+    font-variation-settings:
+        'FILL' 1,
+        'wght' 400,
+        'GRAD' 0,
+        'opsz' 24
+}
+
+
+.fleur-de-leah-regular {
+    font-family: "Fleur De Leah", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+main {
+    height: 100vh;
+    width: 100vw;
+    background-color: rgb(244, 251, 243);
+    /* background-image: url("./imgs/138123213_10366743.jpg");
+    background-repeat: repeat; */
+    overflow: scroll;
+}
+
+.flex {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+}
+
+.nombres_info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    gap: .75rem;
+}
+
+.nombres_container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    line-height: 2.5rem;
+    margin: 3rem 0;
+}
+
+.nombres {
+    font-family: "fleur de leah";
+    font-size: 4rem;
+    padding: 0;
+    margin: 0;
+}
+
+.nombres_and {
+    font-family: "fleur de leah";
+    font-size: 2.5rem;
+    color: #fcd396a3;
+    margin-left: 1.5rem;
+    line-height: 3rem;
+}
+
+.welcome {
+    background-color: #1c3f38;
+    width: 100vw;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    color: #fbb040;
+    padding: 1rem 0;
+}
+
+.frames{
+    width: 95vw;
+    justify-content: space-between;
+}
+
+.frame{
+    width: 8rem;
+    fill: #fcd396a3;
+}
+
+.pikachu {
+    height: 2rem;
+    margin-bottom: .5rem;
+}
+
+.fecha_hora {
+    display: flex;
+    gap: 1rem;
+    /* margin-top: 1rem; */
+}
+
+.txt_flex{
+    display: flex;
+    align-items: center;
+    gap: .3rem;
+}
+
+.lugar{
+    margin-top: .5rem;
+    margin-bottom: 1rem;
+}
+
+#mew{
+    height: 30vh;
+    width: 100vw;
+    object-fit:cover;
+}
+
+.mapa{
+    margin: 0 auto;
+}
+
+/* RSVP */
+.rsvp, .info_adicional, .direccion{
+    padding: 2rem 1.5rem;
+}
+
+.rsvp h1, .direccion h1, .info_adicional h1{
+    text-align: center;
+    color: #1c3f38;
+}
+
+label{
+    display: block;
+    margin-bottom: .5rem;
+    color: #1c3f38;
+    font-weight: bold;
+}
+
+.confirmacion{
+    width: 100vw;
+    margin: 2rem;
+}
+
+input, textarea{
+    width: calc(100% - 2rem);
+    height: 2rem;
+    border: none;
+    border-radius: .3rem;
+    margin-bottom: 1rem;
+    padding: .5rem 1rem;
+}
+
+textarea{
+    height: 5rem;
+}
+
+button{
+    background-color: #1c3f38;
+    color: #fbb040;
+    border: none;
+    border-radius: .3rem;
+    width: 100%;
+    height: 2rem;
+    font-weight: bold;
+    font-size: 1rem;
+}
+
+.requerido{
+    color: red;
+}
