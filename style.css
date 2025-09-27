@@ -178,7 +178,7 @@ button{
 .info_adicional{
     display: flex;
     flex-direction: column;
-    gap: 1rem;
+    gap: 1.5rem;
 }
 
 .info_cuenta{
