@@ -23,3 +23,47 @@ document.getElementById("confirmacion").addEventListener("submit", function (eve
         });
 });
 
+const botonCuentas = document.querySelector(".buton-info-cuentas");
+const info_cuentas = document.querySelector(".info_cuenta")
+
+botonCuentas.addEventListener('click', () => {
+    if(botonCuentas.innerHTML == "Mostrar cuentas"){
+        botonCuentas.innerHTML = "Ocultar cuentas"
+    }
+    else{
+        botonCuentas.innerHTML = "Mostrar cuentas"
+    }
+    console.log("se hizo click")
+    info_cuentas.classList.toggle("hidden");
+});
+
+
+// Cuenta regresiva
+
+const targetDate = new Date("2025-12-13T16:00:00").getTime();
+
+function updateCountdown() {
+    const now = new Date().getTime();
+    const distance = targetDate - now;
+
+    if (distance < 0) {
+        document.getElementById("countdown").innerHTML = "¡Tiempo terminado!";
+        clearInterval(interval); // detener el intervalo
+        return;
+    }
+
+    const days = Math.floor(distance / (1000 * 60 * 60 * 24));
+    const hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+    const minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+    const seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+    document.getElementById("countdown").innerHTML =
+        `${days}d ${hours}h ${minutes}m ${seconds}s`;
+}
+
+
+const interval = setInterval(updateCountdown, 1000);
+
+
+updateCountdown();
+

@@ -1,15 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Fleur+De+Leah&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
-<title>Boda Vale y Max</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fleur+De+Leah&display=swap" rel="stylesheet">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <title>Boda Vale y Max</title>
 </head>
+
 <body>
     <main>
         <section class="welcome">
@@ -38,7 +41,8 @@
                     <p class="txt_flex"><span class="material-symbols-outlined">event</span> 13 dic 2025</p>
                     <p class="txt_flex"><span class="material-symbols-outlined">schedule</span>4:00pm</p>
                 </div>
-                <p class="txt_flex lugar"><span class="material-symbols-outlined">location_on</span><a href=""></a> Quinta el portal, San Rafael, Heredia</p>
+                <p class="txt_flex lugar"><span class="material-symbols-outlined">location_on</span><a href=""></a>
+                    Quinta el portal, San Rafael, Heredia</p>
             </div>
             <div class="frames flex">
                 <img class="frame" src="./imgs/frame_left_down.svg" alt="">
@@ -46,6 +50,8 @@
             </div>
         </section>
         <img src="./imgs/mew.jpg" alt="" id="mew">
+        <h2>Cuenta regresiva</h2>
+        <div id="countdown"></div>
         <section class="rsvp">
             <h1>RSVP</h1>
             <form id="confirmacion">
@@ -67,24 +73,39 @@
         </section>
         <section class="info_adicional">
             <h1>Información adicional</h1>
-            <p>Estamos muy emocionados porque nos acompañes en este evento tan importante para nosotros, nos gustaría comentarte algunas cosas que queremos para que la ceremonia y la fiesta salgan de la mejor manera posible</p>
-            <p>Primero, será un evento <b>únicamente para adultos</b> con tal de que todos podamos disfrutar sin preocupaciones no se permiten niños en la ceremonia ni en la fiesta</p>
-            <p>Segundo, nosotros no proveeremos licor en la fiesta pero si gustan tomar son bienvenidos a traer sus propias bebidas y ligas correspondientes</p>
-            <p>El código de vestimenta es <b>formal</b>, además la quinta donde será la boda es un lugar que en la tarde-noche se pone muy fresco/frío, así que recomendamos ropa abrigada</p>
-            <p>Cualquier duda adicional nos puedes escribir al whatsapp</p>
-            <p>Cualquier muestra de cariño que nos quieran dar puede ser en efectivo o en sinpe</p>
-            <button>Mostrar cuentas</button>
-            <div class="info_cuenta">
-                Poner info de sinpe aqui
+            <p>Estamos muy emocionados porque nos acompañes en este evento tan importante para nosotros, nos gustaría
+                comentarte algunas cosas que queremos para que la ceremonia y la fiesta salgan de la mejor manera
+                posible.</p>
+            <p>Primero, será un evento <b>únicamente para adultos</b> con tal de que todos podamos disfrutar sin
+                preocupaciones no se permiten niños en la ceremonia ni en la fiesta.</p>
+            <p>Segundo, nosotros no proveeremos licor en la fiesta pero si gustan tomar son bienvenidos a traer sus
+                propias bebidas y ligas correspondientes.</p>
+            <p>El código de vestimenta es <b>formal</b>, además la quinta donde será la boda es un lugar que en la
+                tarde-noche se pone muy fresco/frío, así que recomendamos ropa abrigada.</p>
+            <p>Con respecto al código de vestimenta queremos recordar por favor no vestir de blanco, además el color verde está reservado para las damas de honor.</p>
+            <p>Cualquier duda adicional nos puedes escribir al whatsapp.</p>
+            <p>Cualquier muestra de cariño que nos quieran dar puede ser en efectivo o en sinpe.</p>
+            <button class="buton-info-cuentas">Mostrar cuentas</button>
+            <div class="info_cuenta hidden">
+                <h3>Max Rodríguez Flores</h3>
+                <label for="cuenta bac">Número de cuenta BAC: </label>
+                <input type="number" readonly value="947184545">
+                <label for="sinpe">Número de cuenta IBAN: </label>
+                <input type="text" readonly value="CR22010200009471845456">
             </div>
         </section>
         <section class="direccion">
             <h1>¿Cómo llegar a la quinta?</h1>
-            <p>Quinta el portal se encuentra en la provincia de Heredia, en el cantón de San Rafael. Con ese nombre se encuentra en waze y google maps</p>
+            <p>Quinta el portal se encuentra en la provincia de Heredia, en el cantón de San Rafael. Con ese nombre se
+                encuentra en waze y google maps</p>
             <p>Igual por acá te compartimos el mapa</p>
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3928.6579943444412!2d-84.0734533!3d10.045054799999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8fa0ef8e1b5f14bd%3A0x66f6135c56fab5b!2sQuinta%20El%20Portal!5e0!3m2!1ses-419!2scr!4v1758158728450!5m2!1ses-419!2scr" width="100%" height="350" style="border:0;" allowfullscreen=""  loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3928.6579943444412!2d-84.0734533!3d10.045054799999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8fa0ef8e1b5f14bd%3A0x66f6135c56fab5b!2sQuinta%20El%20Portal!5e0!3m2!1ses-419!2scr!4v1758158728450!5m2!1ses-419!2scr"
+                width="100%" height="350" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
         </section>
     </main>
     <script src="./script.js"></script>
 </body>
+
 </html>
