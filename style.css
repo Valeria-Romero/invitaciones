@@ -21,7 +21,7 @@
 
 
 main {
-    height: 100vh;
+    height: 100dvh;
     width: 100vw;
     background-color: rgb(244, 251, 243);
     overflow: scroll;
