@@ -7,18 +7,7 @@ document.getElementById("confirmacion").addEventListener("submit", function (eve
         method: "POST",
         body: formData
     })
-        // .then(res => res.text())
-        // .then(data => {
-        //     if (data.result === "success") {
-        //         let msg = document.getElementById("status");
-        //         msg.style.display = "block";
-        //         msg.style.color = "green";
-        //         msg.innerText = "Gracias 🎉, tu formulario fue enviado.";
-        //     }
-        // })
-        // .catch(err => {
-        //     console.error(err);
-        // });
+
 });
 
 const btnConfirm = document.querySelector('.btn-confirm');
